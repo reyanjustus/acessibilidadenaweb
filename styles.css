@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --cor-principal: #ff0000; 
+    --cor-secundaria: #0011ff;
+    --cor-fundo:rgb(255, 255, 255); 
+    --cor-texto: #000000; 
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+header {
+    background-color: #000000;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+.inicio-fundo {
+    background-image: url('img/fauvismo\ canvas.png'); 
+    background-size: cover;
+    background-position: center; 
+    height: 606px; 
+    padding: 40px; 
+    color: rgb(255, 255, 255); 
+}
+.contato-fundo {
+    background-image: url('img/fauvismo\ canvas.png'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 40px; 
+    color: rgb(204, 240, 255); 
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.botao-inicio {
+    background-color: var(--cor-principal);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--cor-principal);
+}
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    color: var(--cor-principal);
+}
+
+.fundo-galeria {
+    background: url('img/fauvismo_flor.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+.formulario {
+    background-color: #d6ffc3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    background-color: #fffeb7;
+}
+
+.list-group-item {
+    background-color: #c2ffed;
+    border: 1px solid var(--cor-secundaria);
+}
+
+.list-group-item:hover {
+    background-color: var(--cor-principal);
+    color: #f8acbf;
+}
+
+
+footer {
+    background-color: rgb(251, 255, 193);
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer i {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: var(--cor-secundaria);
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right:20px;
+    z-index: 1000;
+}
